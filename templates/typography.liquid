@@ -1,0 +1,251 @@
+{% block content %} 
+
+<div class="row">
+  <div class="panel">
+
+<div class="row">
+  <div class="large-24 columns"><h1 class="styleguideheader">TYPOGRAPHY</h1></div>
+</div>
+
+
+<div class="row">
+  <div class="large-22 large-offset-2 columns"> 
+
+<h2>Header Styles</h2>
+
+<p>Check the table below for common Scss Variables set in <code>_settings.scss</code> which should be stored in your project's 'sass' directory. The <code>_settings.scss</code> file explains what all the variables are and can easily be followed. See <a href="https://docs.venda.com/x/UIa8B" target="_blank">documentation for Responsive Templates and CSS  <i class="icon-external-link"></i></a> for the location of all <code>.scss</code> files. With any change to the variables you will need to recompile the CSS. Changes outside the scope of Foundation are made in <code>_styles.scss</code> and override the default Foundation styling. This is Venda's Sassy CSS which uses some of the Foundation Scss Variables and some of its own set in <code>_settings.scss</code>.</p>
+<p>See <a href="http://foundation.zurb.com/docs/components/type.html" target="_blank">Foundation Documentation: Typography  <i class="icon-external-link"></i></a> for details of all Scss Variables.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Style</th>
+      <th>Scss Variable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header font</td>
+      <td>$header-font-family</td>
+    </tr>
+    <tr>
+      <td>Header font colour</td>
+      <td>$header-font-color</td>
+    </tr>
+    <tr>
+      <td>Header size (h1 - h6)</td>
+      <td>$h1-font-size</td>
+    </tr>
+    <tr>
+      <td>Header subheader colour</td>
+      <td>$subheader-font-color</td>
+    </tr>
+    <tr>
+      <td>Main font colour</td>
+      <td>$body-font-color</td>
+    </tr>
+    <tr>
+      <td>Main body font</td>
+      <td>$body-font-family</td>
+    </tr>
+    <tr>
+      <td>Base html and font size</td>
+      <td>$base-font-size</td>
+    </tr>
+    <tr>
+      <td>Link colour (aka anchors in _settings.scss)</td>
+      <td>$anchor-font-color</td>
+    </tr>
+        <tr>
+      <td>Link hover colour (aka anchors in _settings.scss)</td>
+      <td>$anchor-font-color-hover</td>
+    </tr>
+  </tbody>
+</table>
+
+<br><hr><br>
+
+<!-- Basic Headers -->
+<h1>h1 header</h1>
+<h2>h2 header</h2>
+<h3>h3 header</h3>
+<h4>h4 header</h4>
+<h5>h5 header</h5>
+<h6>h6 header</h6>
+
+<br><hr><br>
+
+<!-- Headers with small text -->
+<h1>h1 header <small>Small header text.</small></h1>
+<h2>h2 header <small>Small header text.</small></h2>
+<h3>h3 header <small>Small header text.</small></h3>
+<h4>h4 header <small>Small header text.</small></h4>
+<h5>h5 header <small>Small header text.</small></h5>
+<h6>h6 header <small>Small header text.</small></h6>
+
+<br><hr><br>
+
+<!-- Subheaders -->
+<h1 class="subheader">h1.subheader header</h1>
+<h2 class="subheader">h2.subheader header</h2>
+<h3 class="subheader">h3.subheader header</h3>
+<h4 class="subheader">h4.subheader header</h4>
+<h5 class="subheader">h5.subheader header</h5>
+<h6 class="subheader">h6.subheader header</h6>
+
+<hr>
+
+<h2>Paragraphs</h2>
+<div class="row">
+    <div class="large-8 columns">
+        <p class="lead">This is a lead paragraph. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+    </div>
+    <div class="large-8 columns">
+        <p>It's really easy to add emphasis to copy. There standards like <strong>bold</strong> and <em>italics</em>, as well as styles such as <code>&lt;code&gt;</code>, <kbd>&lt;kbd&gt;</kbd> and <small>&lt;small&gt;</small></p>
+    </div>
+    <div class="large-8 columns">
+        <aside><p>You can also put text into an <strong>&lt;aside&gt;</strong> element to give it some hierarchy on the page. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p></aside>
+    </div>
+</div>
+
+<hr>
+
+<h2>Links</h2>
+
+<h2><a href="#">This is a header link.</a></h2>
+<h3><a href="#">This is a header link.</a></h3>
+<h2><a href="#">This2is a header link.</a></h4>
+<h5><a href="#">This is a header link.</a></h5>
+<p><a href="#">This is a standard inline paragraph link.</a></p>
+
+<hr>
+
+<h2>Lists</h2>
+<!-- Disc Lists -->
+<div class="large-8 columns">
+<h5>ul.disc</h5>
+    <ul class="disc">
+      <li>List item with a much longer description or more content.</li>
+      <li>List item</li>
+      <li>List item
+        <ul>
+          <li>Nested List Item</li>
+          <li>Nested List Item</li>
+          <li>Nested List Item</li>
+        </ul>
+      </li>
+      <li>List item</li>
+      <li>List item</li>
+      <li>List item</li>
+    </ul>
+</div>
+
+<!-- Circle Lists -->
+<div class="large-8 columns">
+    <h5>ul.circle</h5>
+    <ul class="circle">
+      <li>List item with a much longer description or more content.</li>
+      <li>List item</li>
+      <li>List item
+        <ul>
+          <li>Nested List Item</li>
+          <li>Nested List Item</li>
+          <li>Nested List Item</li>
+        </ul>
+      </li>
+      <li>List item</li>
+      <li>List item</li>
+      <li>List item</li>
+    </ul>
+</div>
+
+<!-- Square Lists -->
+<div class="large-8 columns">
+    <h5>ul.square</h5>
+    <ul class="square">
+      <li>List item with a much longer description or more content.</li>
+      <li>List item</li>
+      <li>List item
+        <ul>
+          <li>Nested List Item</li>
+          <li>Nested List Item</li>
+          <li>Nested List Item</li>
+        </ul>
+      </li>
+      <li>List item</li>
+      <li>List item</li>
+      <li>List item</li>
+    </ul>
+</div>
+
+<!-- Ordered Lists -->
+<div class="large-12 columns">
+    <ol>
+      <li>Ordered List Item</li>
+      <li>Ordered List Item</li>
+      <li>Ordered List Item</li>
+      <li>Ordered List Item</li>
+    </ol>
+</div>
+
+<!-- Definition Lists -->
+<div class="large-12 columns">
+    <dl>
+      <dt>Definition Title</dt>
+      <dd>Definition text, you can add as many of these as you need. The line-height matches paragraphs.</dd>
+    </dl>
+</div>
+
+<hr>
+
+
+<h2>Inline Lists</h2>
+
+<div class="row">
+  <div class="large-12 columns">
+    <ul class="inline-list">
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <li><a href="#">Link 4</a></li>
+      <li><a href="#">Link 5</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr>
+
+<h2>Labels</h2>
+
+<div class="row">
+    <div class="small-6 columns">
+      <span class="label">Normal Label</span><br><br>
+      <span class="radius label">Normal Label</span><br><br>
+      <span class="round label">Normal Label</span>
+    </div>
+    <div class="small-6 columns">
+      <span class="secondary label">Secondary Label</span><br><br>
+      <span class="radius secondary label">Secondary Label</span><br><br>
+      <span class="round secondary label">Secondary Label</span>
+    </div>
+    <div class="small-6 columns">
+      <span class="success label">Success Label</span><br><br>
+      <span class="radius success label">Success Label</span><br><br>
+      <span class="round success label">Success Label</span>
+    </div>
+    <div class="small-6 columns">
+      <span class="alert label">Alert Label</span><br><br>
+      <span class="radius alert label">Alert Label</span><br><br>
+      <span class="round alert label">Alert Label</span>
+    </div>
+</div>
+
+<hr>
+
+  </div>
+</div>
+
+</div>
+</div>
+
+
+{% endblock %}

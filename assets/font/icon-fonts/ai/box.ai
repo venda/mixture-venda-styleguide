@@ -1,0 +1,61 @@
+%!PS-Adobe-3.0
+%%Creator: Adobe Fireworks CS6
+%%DocumentNeededResources: procset Adobe_level2_AI5 1.0 0
+%%+ procset Adobe_packedarray 2.0 0
+%%+ procset Adobe_cmykcolor 1.1 0
+%%+ procset Adobe_cshow 1.1 0
+%%+ procset Adobe_customcolor 1.0 0
+%%+ procset Adobe_typography_AI5 1.0 0
+%%+ procset Adobe_Illustrator_AI5 1.0 0
+%%BoundingBox:0 0 100 100
+%AI3_TemplateBox: 0 0 100 100
+%%PageOrigin:0 0
+%AI5_FileFormat 3
+%AI3_ColorUsage: Color
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%EndComments
+%%BeginProlog
+%%EndProlog
+%%BeginSetup
+Adobe_packedarray /initialize get exec
+Adobe_cmykcolor /initialize get exec
+Adobe_cshow /initialize get exec
+Adobe_customcolor /initialize get exec
+Adobe_typography_AI5 /initialize get exec
+Adobe_Illustrator_AI5 /initialize get exec
+%%EndSetup
+1 1 1 1 0 0 0 79 128 255 Lb
+(Layer 1) Ln
+*u
+0.000 0.000 0.000 Xa
+1 XR
+3.00 26.36 m
+47.93 5.00 l
+47.93 52.79 l
+3.00 71.91 l
+3.00 26.36 l
+f
+51.22 52.79 m
+51.22 5.00 l
+96.00 26.36 l
+96.00 71.91 l
+51.22 52.79 l
+f
+49.34 95.00 m
+3.29 75.06 l
+49.38 55.28 l
+95.94 75.11 l
+49.34 95.00 l
+f
+*U
+LB
+%%PageTrailer
+gsave annotatepage grestore showpage
+%%Trailer
+Adobe_Illustrator_AI5 /terminate get exec
+Adobe_typography_AI5 /terminate get exec
+Adobe_customcolor /terminate get exec
+Adobe_cshow /terminate get exec
+Adobe_cmykcolor /terminate get exec
+Adobe_packedarray /terminate get exec
+%%EOF

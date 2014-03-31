@@ -1,0 +1,549 @@
+{% block content %} 
+
+
+
+<div class="row">
+  <div class="panel">
+
+<div class="row">
+  <div class="large-24 columns"><h1 class="styleguideheader">BUTTONS</h1></div>
+</div>
+
+
+<div class="row">
+  <div class="large-22 large-offset-2 columns"> 
+
+
+<p>Check the table below for common Scss Variables set in <code>_settings.scss</code> which should be stored in your project's 'scss' directory. The <code>_settings.scss</code> file explains what all the variables are and can easily be followed. See <a href="https://docs.venda.com/x/UIa8B" target="_blank">documentation for Responsive Templates and CSS  <i class="icon-external-link"></i></a> for the location of all <code>.scss</code> files. With any change to the variables you will need to recompile the CSS. Changes outside the scope of Foundation are made in <code>_styles.scss</code> and override the default Foundation styling. This is Venda's Sassy CSS which uses some of the Foundation Scss Variables and some of its own set in <code>_settings.scss</code>.</p>
+<p>See <a href="http://foundation.zurb.com/docs/components/buttons.html" target="_blank">Foundation Documentation: Buttons  <i class="icon-external-link"></i></a> for details of all Scss Variables.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Style</th>
+      <th>Scss Variable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary button colour / Signposts<br>Also other UI elements i.e. active page in nav</td>
+      <td>$primary-color</td>
+    </tr>
+    <tr>
+      <td>Secondary button colour</td>
+      <td>$secondary-color</td>
+    </tr>
+    <tr>
+      <td>Purchase path button colour</td>
+      <td>$success-color</td>
+    </tr>
+    <tr>
+      <td>Alert button colour</td>
+      <td>$alert-color</td>
+    </tr>
+    <tr>
+      <td>Tertiary colour</td>
+      <td>$tertiary-color</td>
+    </tr>
+    <tr>
+      <td>Quaternary button colour</td>
+      <td>$quaternary-color</td>
+    </tr>
+    <tr>
+      <td>Padding for buttons</td>
+      <td>$button-tny, $button-sml, $button-med, $button-lrg</td>
+    </tr>
+    <tr>
+      <td>Curved edge of <code>.radius</code> buttons</td>
+      <td>$button-radius ($global-radius)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Sizes, Type and Styles</h2>
+
+<div class="row">
+    <div class="large-6 columns">
+        <h5 class="subheader">Signposts</h5>
+        <p>checkout (header), more info (category), store locator button (go buttons / view store info etc), buttons within static content</p>
+        <a class="tiny button" href="#">Tiny</a><br><br>
+        <a class="small button" href="#">Small</a><br><br>
+        <a class="button" href="#">Medium</a><br><br>
+        <a class="large button" href="#">Large</a>
+    </div>
+    <div class="large-6 columns">
+        <h5 class="subheader">Secondary</h5>
+        <p>search (header), store locator (go button), gift certificate (go button), newsletter sign up button, back buttons in checkout</p>
+        <a class="secondary tiny button" href="#">Tiny</a><br><br>
+        <a class="secondary small button" href="#">Small</a><br><br>
+        <a class="secondary button" href="#">Medium</a><br><br>
+        <a class="secondary large button" href="#">Large</a>
+    </div>
+    <div class="large-6 columns">
+        <h5 class="subheader">Purchase Path</h5>
+        <p>more info (product), buy now, add to basket, checkout button (minicart), login buttons, checkout buttons (continue, pay securely now etc)</p>
+        <a class="success tiny button" href="#">Tiny</a><br><br>
+        <a class="success small button" href="#">Small</a><br><br>
+        <a class="success button" href="#">Medium</a><br><br>
+        <a class="success large button" href="#">Large</a>
+    </div>
+    <div class="large-6 columns">
+        <h5 class="subheader">Alert</h5>
+        <p>alert button using sitewide alert colour<br><br></p>
+        <a class="alert tiny button" href="#">Tiny</a><br><br>
+        <a class="alert small button" href="#">Small</a><br><br>
+        <a class="alert button" href="#">Medium</a><br><br>
+        <a class="alert large button" href="#">Large</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="large-6 columns">
+        <h5 class="subheader">Radius</h5>
+        <a class="radius tiny button" href="#">Tiny</a><br><br>
+        <a class="radius small button" href="#">Small</a><br><br>
+        <a class="radius button" href="#">Medium</a><br><br>
+        <a class="radius large button" href="#">Large</a>
+    </div>
+    <div class="large-6 columns">
+        <h5 class="subheader">Radius</h5>
+        <a class="radius secondary tiny button" href="#">Tiny</a><br><br>
+        <a class="radius secondary small button" href="#">Small</a><br><br>
+        <a class="radius secondary button" href="#">Medium</a><br><br>
+        <a class="radius secondary large button" href="#">Large</a>
+    </div>
+    <div class="large-6 columns">
+        <h5 class="subheader">Radius</h5>
+        <a class="radius success tiny button" href="#">Tiny</a><br><br>
+        <a class="radius success small button" href="#">Small</a><br><br>
+        <a class="radius success button" href="#">Medium</a><br><br>
+        <a class="radius success large button" href="#">Large</a>
+    </div>
+    <div class="large-6 columns">
+        <h5 class="subheader">Radius</h5>
+        <a class="radius alert tiny button" href="#">Tiny</a><br><br>
+        <a class="radius alert small button" href="#">Small</a><br><br>
+        <a class="radius alert button" href="#">Medium</a><br><br>
+        <a class="radius alert large button" href="#">Large</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="large-6 columns">
+        <h5 class="subheader">Round</h5>
+        <a class="round tiny button" href="#">Tiny</a><br><br>
+        <a class="round small button" href="#">Small</a><br><br>
+        <a class="round button" href="#">Medium</a><br><br>
+        <a class="round large button" href="#">Large</a>
+    </div>
+    <div class="large-6 columns">
+        <h5 class="subheader">Round</h5>
+        <a class="round secondary tiny button" href="#">Tiny</a><br><br>
+        <a class="round secondary small button" href="#">Small</a><br><br>
+        <a class="round secondary button" href="#">Medium</a><br><br>
+        <a class="round secondary large button" href="#">Large</a>
+    </div>
+    <div class="large-6 columns">
+        <h5 class="subheader">Round</h5>
+        <a class="round success tiny button" href="#">Tiny</a><br><br>
+        <a class="round success small button" href="#">Small</a><br><br>
+        <a class="round success button" href="#">Medium</a><br><br>
+        <a class="round success large button" href="#">Large</a>
+    </div>
+    <div class="large-6 columns">
+        <h5 class="subheader">Round</h5>
+        <a class="round alert tiny button" href="#">Tiny</a><br><br>
+        <a class="round alert small button" href="#">Small</a><br><br>
+        <a class="round alert button" href="#">Medium</a><br><br>
+        <a class="round alert large button" href="#">Large</a>
+    </div>
+</div>
+
+<!-- Inputs and Submits -->
+<p>Apply these styles to <code>button</code>, <code>input type="submit"</code> or <code>a</code></p>
+<button class="button">Form Button</button>
+<input type="submit" class="button" value="Input Submit Button" />
+<a class="button" href="#">Regular Button &raquo;</a>
+
+<hr>
+
+<h2>Button Groups</h2>
+
+<div class="row">
+    <div class="large-12 columns">
+        <h5 class="subheader">Signposts Button Group</h5>
+        <ul class="button-group">
+          <li><a href="#" class="button tiny">Button 1</a></li>
+          <li><a href="#" class="button tiny">Button 2</a></li>
+          <li><a href="#" class="button tiny">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button small">Button 1</a></li>
+          <li><a href="#" class="button small">Button 2</a></li>
+          <li><a href="#" class="button small">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button">Button 1</a></li>
+          <li><a href="#" class="button">Button 2</a></li>
+          <li><a href="#" class="button">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button large">Button 1</a></li>
+          <li><a href="#" class="button large">Button 2</a></li>
+          <li><a href="#" class="button large">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button tiny">Button 1</a></li>
+          <li><a href="#" class="button tiny">Button 2</a></li>
+          <li><a href="#" class="button tiny">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button small">Button 1</a></li>
+          <li><a href="#" class="button small">Button 2</a></li>
+          <li><a href="#" class="button small">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button">Button 1</a></li>
+          <li><a href="#" class="button">Button 2</a></li>
+          <li><a href="#" class="button">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button large">Button 1</a></li>
+          <li><a href="#" class="button large">Button 2</a></li>
+          <li><a href="#" class="button large">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button tiny">Button 1</a></li>
+          <li><a href="#" class="button tiny">Button 2</a></li>
+          <li><a href="#" class="button tiny">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button small">Button 1</a></li>
+          <li><a href="#" class="button small">Button 2</a></li>
+          <li><a href="#" class="button small">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button">Button 1</a></li>
+          <li><a href="#" class="button">Button 2</a></li>
+          <li><a href="#" class="button">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button large">Button 1</a></li>
+          <li><a href="#" class="button large">Button 2</a></li>
+          <li><a href="#" class="button large">Button 3</a></li>
+        </ul>
+    </div>
+    <div class="large-12 columns">
+        <h5 class="subheader">Secondary Button Group</h5>
+        <ul class="button-group">
+          <li><a href="#" class="button tiny secondary">Button 1</a></li>
+          <li><a href="#" class="button tiny secondary">Button 2</a></li>
+          <li><a href="#" class="button tiny secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button small secondary">Button 1</a></li>
+          <li><a href="#" class="button small secondary">Button 2</a></li>
+          <li><a href="#" class="button small secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button secondary">Button 1</a></li>
+          <li><a href="#" class="button secondary">Button 2</a></li>
+          <li><a href="#" class="button secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button large secondary">Button 1</a></li>
+          <li><a href="#" class="button large secondary">Button 2</a></li>
+          <li><a href="#" class="button large secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button tiny secondary">Button 1</a></li>
+          <li><a href="#" class="button tiny secondary">Button 2</a></li>
+          <li><a href="#" class="button tiny secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button small secondary">Button 1</a></li>
+          <li><a href="#" class="button small secondary">Button 2</a></li>
+          <li><a href="#" class="button small secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button radius secondary">Button 1</a></li>
+          <li><a href="#" class="button radius secondary">Button 2</a></li>
+          <li><a href="#" class="button radius secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button large secondary">Button 1</a></li>
+          <li><a href="#" class="button large secondary">Button 2</a></li>
+          <li><a href="#" class="button large secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button tiny secondary">Button 1</a></li>
+          <li><a href="#" class="button tiny secondary">Button 2</a></li>
+          <li><a href="#" class="button tiny secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button small secondary">Button 1</a></li>
+          <li><a href="#" class="button small secondary">Button 2</a></li>
+          <li><a href="#" class="button small secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button rounded secondary">Button 1</a></li>
+          <li><a href="#" class="button rounded secondary">Button 2</a></li>
+          <li><a href="#" class="button rounded secondary">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button large secondary">Button 1</a></li>
+          <li><a href="#" class="button large secondary">Button 2</a></li>
+          <li><a href="#" class="button large secondary">Button 3</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="large-12 columns">
+        <h5 class="subheader">Purchase Path Button Group</h5>
+        <ul class="button-group">
+          <li><a href="#" class="button tiny success">Button 1</a></li>
+          <li><a href="#" class="button tiny success">Button 2</a></li>
+          <li><a href="#" class="button tiny success">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button small success">Button 1</a></li>
+          <li><a href="#" class="button small success">Button 2</a></li>
+          <li><a href="#" class="button small success">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button success">Button 1</a></li>
+          <li><a href="#" class="button success">Button 2</a></li>
+          <li><a href="#" class="button success">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button large success">Button 1</a></li>
+          <li><a href="#" class="button large success">Button 2</a></li>
+          <li><a href="#" class="button large success">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button tiny success">Button 1</a></li>
+          <li><a href="#" class="button tiny success">Button 2</a></li>
+          <li><a href="#" class="button tiny success">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button small success">Button 1</a></li>
+          <li><a href="#" class="button small success">Button 2</a></li>
+          <li><a href="#" class="button small success">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button radius success">Button 1</a></li>
+          <li><a href="#" class="button radius success">Button 2</a></li>
+          <li><a href="#" class="button radius success">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button large success">Button 1</a></li>
+          <li><a href="#" class="button large success">Button 2</a></li>
+          <li><a href="#" class="button large success">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button tiny success">Button 1</a></li>
+          <li><a href="#" class="button tiny success">Button 2</a></li>
+          <li><a href="#" class="button tiny success">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button small success">Button 1</a></li>
+          <li><a href="#" class="button small success">Button 2</a></li>
+          <li><a href="#" class="button small success">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button rounded success">Button 1</a></li>
+          <li><a href="#" class="button rounded success">Button 2</a></li>
+          <li><a href="#" class="button rounded success">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button large success">Button 1</a></li>
+          <li><a href="#" class="button large success">Button 2</a></li>
+          <li><a href="#" class="button large success">Button 3</a></li>
+        </ul>
+    </div>
+    <div class="large-12 columns">
+        <h5 class="subheader">Alert Button Group</h5>
+        <ul class="button-group">
+          <li><a href="#" class="button tiny alert">Button 1</a></li>
+          <li><a href="#" class="button tiny alert">Button 2</a></li>
+          <li><a href="#" class="button tiny alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button small alert">Button 1</a></li>
+          <li><a href="#" class="button small alert">Button 2</a></li>
+          <li><a href="#" class="button small alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button alert">Button 1</a></li>
+          <li><a href="#" class="button alert">Button 2</a></li>
+          <li><a href="#" class="button alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="button large alert">Button 1</a></li>
+          <li><a href="#" class="button large alert">Button 2</a></li>
+          <li><a href="#" class="button large alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button tiny alert">Button 1</a></li>
+          <li><a href="#" class="button tiny alert">Button 2</a></li>
+          <li><a href="#" class="button tiny alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button small alert">Button 1</a></li>
+          <li><a href="#" class="button small alert">Button 2</a></li>
+          <li><a href="#" class="button small alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button radius alert">Button 1</a></li>
+          <li><a href="#" class="button radius alert">Button 2</a></li>
+          <li><a href="#" class="button radius alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="button large alert">Button 1</a></li>
+          <li><a href="#" class="button large alert">Button 2</a></li>
+          <li><a href="#" class="button large alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button tiny alert">Button 1</a></li>
+          <li><a href="#" class="button tiny alert">Button 2</a></li>
+          <li><a href="#" class="button tiny alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button small alert">Button 1</a></li>
+          <li><a href="#" class="button small alert">Button 2</a></li>
+          <li><a href="#" class="button small alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button rounded alert">Button 1</a></li>
+          <li><a href="#" class="button rounded alert">Button 2</a></li>
+          <li><a href="#" class="button rounded alert">Button 3</a></li>
+        </ul>
+        <ul class="button-group round">
+          <li><a href="#" class="button large alert">Button 1</a></li>
+          <li><a href="#" class="button large alert">Button 2</a></li>
+          <li><a href="#" class="button large alert">Button 3</a></li>
+        </ul>
+    </div>
+</div>
+
+<hr>
+
+<h2>Even Button Groups</h2>
+<p>Add <code>class="even-2"</code> through <code>class="even-8"</code>.</p>
+<div class="row">
+    <div class="large-12 columns">
+      <h5 class="subheader">Signposts Even Button Group</h5>
+      <ul class="button-group even-3">
+        <li><a href="#" class="button">Button 1</a></li>
+        <li><a href="#" class="button">Button 2</a></li>
+        <li><a href="#" class="button">Button 3</a></li>
+      </ul>
+    </div>
+    <div class="large-12 columns">
+      <h5 class="subheader">Secondary Even Button Group</h5>
+      <ul class="button-group even-3">
+        <li><a href="#" class="secondary button">Button 1</a></li>
+        <li><a href="#" class="secondary button">Button 2</a></li>
+        <li><a href="#" class="secondary button">Button 3</a></li>
+      </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="large-12 columns">
+      <h5 class="subheader">Purchase Path Even Button Group</h5>
+      <ul class="button-group even-3">
+        <li><a href="#" class="success button">Button 1</a></li>
+        <li><a href="#" class="success button">Button 2</a></li>
+        <li><a href="#" class="success button">Button 3</a></li>
+      </ul>
+    </div>
+    <div class="large-12 columns">
+      <h5 class="subheader">Alert Even Button Group</h5>
+      <ul class="button-group even-3">
+        <li><a href="#" class="alert button">Button 1</a></li>
+        <li><a href="#" class="alert button">Button 2</a></li>
+        <li><a href="#" class="alert button">Button 3</a></li>
+      </ul>
+    </div>
+</div>
+
+<hr>
+
+<h2>Button Bars</h2>
+<div class="row">
+    <div class="large-12 columns">
+      <h5 class="subheader">Signposts Button Bar</h5>
+      <div class="button-bar">
+        <ul class="button-group">
+          <li><a href="#" class="small button">Button 1</a></li>
+          <li><a href="#" class="small button">Button 2</a></li>
+          <li><a href="#" class="small button">Button 3</a></li>
+        </ul>
+        <ul class="button-group">
+          <li><a href="#" class="small button">Button 1</a></li>
+          <li><a href="#" class="small button">Button 2</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="large-12 columns">
+      <h5 class="subheader">Mixed Button Bar</h5>
+      <div class="button-bar">
+        <ul class="button-group radius">
+          <li><a href="#" class="small secondary radius button">Button 1</a></li>
+          <li><a href="#" class="small secondary radius button">Button 2</a></li>
+          <li><a href="#" class="small secondary radius button">Button 3</a></li>
+        </ul>
+        <ul class="button-group radius">
+          <li><a href="#" class="tiny success rounded button">Button 1</a></li>
+          <li><a href="#" class="tiny success rounded button">Button 2</a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+
+<hr>
+
+<h2>Additional Buttons</h2>
+
+<p>Venda have extended the button classes to add extra buttons using different colours.</p>
+
+<div class="row">
+    <div class="large-8 columns">
+        <h5 class="subheader">Primary highlight</h5>
+        <p>highlighted standard button</p>
+        <a href="#" class="tiny highlight button">Tiny</a><br><br>
+        <a href="#" class="small highlight button">Small</a><br><br>
+        <a href="#" class="highlight radius button">Medium</a><br><br>
+        <a href="#" class="large highlight round button">Large</a>
+    </div>
+    <div class="large-6 columns">
+        <h5 class="subheader">Tertiary</h5>
+        <p>mobile nav</p>
+        <a class="tiny tertiary button" href="#">Tiny</a><br><br>
+        <a class="small tertiary button" href="#">Small</a><br><br>
+        <a class="tertiary radius button" href="#">Medium</a><br><br>
+        <a class="large tertiary round button" href="#">Large</a>
+    </div>
+    <div class="large-8 columns">
+        <h5 class="subheader">Quaternary</h5>
+        <p>search</p>
+        <a href="#" class="tiny quaternary button">Tiny</a><br><br>
+        <a href="#" class="small quaternary button">Small</a><br><br>
+        <a href="#" class="quaternary radius button">Medium</a><br><br>
+        <a href="#" class="large quaternary round button">Large</a>
+    </div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+	<!-- TODO: Create Buttons Page -->
+{% endblock %}

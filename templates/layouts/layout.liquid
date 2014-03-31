@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        
+        <!-- Title block allowing child pages to override -->
+        <title>{% block title %}Venda Design StyleGuide{% endblock %}</title>
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        {{ "demo.css" | asset_url | stylesheet_tag }}
+        {{ "style.css" | asset_url | stylesheet_tag }}
+        <!-- Styles -->
+        {{ "normalize.css" | asset_url | stylesheet_tag }}
+        {{ "app.css" | asset_url | stylesheet_tag }}
+        <!-- Style block allowing child pages to inject their own styles -->
+        {% block styles %}{% endblock %}
+        <script src="{{ "custom.modernizr.js" | asset_url }}"></script>
+
+
+        
+
+
+
+        
+        
+    </head>
+
+
+
+    <body class="styleguide">
+
+
+
+        <div id="wrapper">
+            <!-- Include -->
+            {% include "header" %}
+            {% include "nav" %}
+
+            <!-- Content block, child page inject content -->
+            {% block content %}{% endblock %}
+        </div>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        {% block scripts %}{% endblock %}
+
+
+
+        
+        {% include "scripts" %}
+
+        {% include "footer" %}
+
+
+
+
+    </body>
+</html>

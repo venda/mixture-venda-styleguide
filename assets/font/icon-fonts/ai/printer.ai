@@ -1,0 +1,104 @@
+%!PS-Adobe-3.0
+%%Creator: Adobe Fireworks CS6
+%%DocumentNeededResources: procset Adobe_level2_AI5 1.0 0
+%%+ procset Adobe_packedarray 2.0 0
+%%+ procset Adobe_cmykcolor 1.1 0
+%%+ procset Adobe_cshow 1.1 0
+%%+ procset Adobe_customcolor 1.0 0
+%%+ procset Adobe_typography_AI5 1.0 0
+%%+ procset Adobe_Illustrator_AI5 1.0 0
+%%BoundingBox:0 0 100 100
+%AI3_TemplateBox: 0 0 100 100
+%%PageOrigin:0 0
+%AI5_FileFormat 3
+%AI3_ColorUsage: Color
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%EndComments
+%%BeginProlog
+%%EndProlog
+%%BeginSetup
+Adobe_packedarray /initialize get exec
+Adobe_cmykcolor /initialize get exec
+Adobe_cshow /initialize get exec
+Adobe_customcolor /initialize get exec
+Adobe_typography_AI5 /initialize get exec
+Adobe_Illustrator_AI5 /initialize get exec
+%%EndSetup
+1 1 1 1 0 0 0 79 128 255 Lb
+(Layer 1) Ln
+*u
+0.576 0.608 0.627 Xa
+1 XR
+96.00 46.50 m
+96.00 23.75 l
+96.00 23.28 95.82 22.86 95.47 22.52 c
+95.12 22.17 94.71 22.00 94.23 22.00 c
+81.85 22.00 l
+81.85 13.25 l
+81.85 11.79 81.33 10.55 80.30 9.53 c
+79.26 8.51 78.01 8.00 76.54 8.00 c
+23.46 8.00 l
+21.99 8.00 20.74 8.51 19.70 9.53 c
+18.67 10.55 18.15 11.79 18.15 13.25 c
+18.15 22.00 l
+5.77 22.00 l
+5.29 22.00 4.88 22.17 4.53 22.52 c
+4.18 22.86 4.00 23.28 4.00 23.75 c
+4.00 46.50 l
+4.00 49.38 5.04 51.85 7.12 53.91 c
+9.21 55.97 11.70 57.00 14.62 57.00 c
+18.15 57.00 l
+18.15 86.75 l
+18.15 88.21 18.67 89.45 19.70 90.47 c
+20.74 91.49 21.99 92.00 23.46 92.00 c
+60.62 92.00 l
+62.09 92.00 63.71 91.64 65.48 90.91 c
+67.25 90.18 68.65 89.30 69.68 88.28 c
+78.09 79.97 l
+79.11 78.95 80.00 77.57 80.74 75.82 c
+81.47 74.07 81.84 72.46 81.84 71.00 c
+81.84 57.01 l
+85.38 57.01 l
+88.29 57.01 90.79 55.98 92.87 53.91 c
+94.96 51.86 96.00 49.39 96.00 46.50 c
+96.00 46.50 l
+f
+88.93 46.50 m
+88.93 47.45 88.58 48.27 87.88 48.96 c
+87.17 49.66 86.35 50.00 85.39 50.00 c
+84.43 50.00 83.60 49.65 82.90 48.96 c
+82.20 48.27 81.85 47.45 81.85 46.50 c
+81.85 45.55 82.20 44.73 82.90 44.04 c
+83.60 43.35 84.43 43.00 85.39 43.00 c
+86.35 43.00 87.17 43.34 87.88 44.04 c
+88.58 44.73 88.93 45.55 88.93 46.50 c
+f
+25.23 50.00 m
+74.77 50.00 l
+74.77 71.00 l
+65.92 71.00 l
+64.45 71.00 63.20 71.51 62.17 72.53 c
+61.14 73.55 60.62 74.79 60.62 76.25 c
+60.62 85.00 l
+25.23 85.00 l
+25.23 50.00 l
+25.23 50.00 l
+f
+25.23 15.00 m
+74.77 15.00 l
+74.77 29.00 l
+25.23 29.00 l
+25.23 15.00 l
+f
+*U
+LB
+%%PageTrailer
+gsave annotatepage grestore showpage
+%%Trailer
+Adobe_Illustrator_AI5 /terminate get exec
+Adobe_typography_AI5 /terminate get exec
+Adobe_customcolor /terminate get exec
+Adobe_cshow /terminate get exec
+Adobe_cmykcolor /terminate get exec
+Adobe_packedarray /terminate get exec
+%%EOF

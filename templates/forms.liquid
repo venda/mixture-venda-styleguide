@@ -1,0 +1,310 @@
+{% block content %} 
+<div class="row">
+<div class="panel">
+
+
+<div class="row">
+  <div class="large-24 columns"><h1 class="styleguideheader">FORMS</h1></div>
+</div>
+
+
+<div class="row">
+  <div class="large-22 large-offset-2 columns"> 
+
+
+<div class="row">
+    <div class="large-24 columns">
+        <!-- Row Layout for forms -->
+        <form>
+          <label>This is a label.</label>
+          <input type="text" placeholder="Standard Input" />
+          <label>Address</label>
+          <input type="text" placeholder="Street" />
+          <div class="row">
+            <div class="large-12 columns">
+              <input type="text" placeholder="City" />
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="State" />
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="ZIP" />
+            </div>
+          </div>
+          <textarea placeholder="Message"></textarea>
+        </form>
+
+        <!-- Right aligned and inline labels -->
+        <form>
+          <div class="row">
+            <div class="large-4 columns">
+              <label class="right inline uppercase">Address Name:</label>
+            </div>
+            <div class="large-20 columns">
+              <input type="text" placeholder="e.g. Home" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-4 columns">
+              <label class="right inline uppercase">City:</label>
+            </div>
+            <div class="large-20 columns">
+              <input type="text" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-4 columns">
+              <label class="right inline uppercase">ZIP:</label>
+            </div>
+            <div class="large-20 columns">
+              <input type="text" />
+            </div>
+          </div>
+        </form>
+    </div>
+</div>
+
+<hr>
+
+<h2>Input Sizes and Types</h2>
+
+<div class="row">
+    <div class="large-12 columns">
+        <form>
+          <label>Label</label>
+          <input type="text" placeholder="Standard Input" />
+        </form>
+    </div>
+    <div class="large-12 columns">
+        <form>
+            <div class="row">
+                <div class="large-4 columns">
+                    <label class="right inline">Label</label>
+                </div>
+                <div class="large-20 columns">
+                    <input type="text" placeholder="Standard Input" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<hr>
+
+<h2>Text Areas Sizes and Types</h2>
+
+<div class="row">
+    <div class="large-12 columns">
+        <form>
+          <label>Text Area Label</label>
+          <textarea class="large-12" placeholder="Message"></textarea>
+          <label>Text Area Label</label>
+          <textarea placeholder="Message"></textarea>
+        </form>
+    </div>
+    <div class="large-12 columns">
+        <form>
+            <div class="row">
+                <div class="large-8 columns">
+                    <label class="right inline">Text Area Label</label>
+                </div>
+                <div class="large-16 columns">
+                    <textarea class="large-18" placeholder="Message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+              <div class="large-8 columns">
+                    <label class="right inline">Text Area Label</label>
+                </div>
+                <div class="large-16 columns">
+                    <textarea placeholder="Message"></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<hr>
+
+<h2>Fieldsets</h2>
+
+<div class="row">
+    <div class="large-24 columns">
+        <form>
+          <fieldset>
+
+            <legend>Fieldset Name</legend>
+
+            <label>This is a label.</label>
+            <input type="text" placeholder="Standard Input" />
+
+            <label>Address</label>
+            <input type="text" />
+
+          </fieldset>
+        </form>
+    </div>
+</div>
+
+<hr>
+
+<h2>Radios, Checkboxes and Selects</h2>
+
+<div class="row">
+    <div class="large-8 columns">
+        <form>
+        <label for="radio1"><input type="radio" id="radio1" checked=""  name="radio1">Radio Button 1</label>
+        <label for="radio2"><input type="radio" id="radio2" name="radio1">Radio Button 2</label>
+        <label for="radio3"><input type="radio" disabled="" id="radio3" name="radio1">Radio Button 3</label>
+        </form>
+    </div>
+    <div class="large-8 columns end">
+        <form>
+        <label for="checkbox1"><input type="checkbox" id="checkbox1">Label for Checkbox</label>
+        <label for="checkbox2"><input type="checkbox" checked="" id="checkbox2">Label for Checkbox</label>
+        <label for="checkbox3"><input type="checkbox" id="checkbox3" checked="">Label for Checkbox</label>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="large-12 columns">
+      <form>
+      <label for="normalDropdown">Dropdown Label</label>
+      <select class="large-12" id="normalDropdown">
+        <option SELECTED>This is a dropdown</option>
+        <option>This is another option</option>
+        <option>Look, a third option</option>
+      </select>
+    </form>
+    </div>
+    <div class="large-12 columns">
+    <form>
+      <label for="normalDropdown2">Dropdown Label</label>
+      <select id="normalDropdown2">
+        <option SELECTED>This is a wide dropdown</option>
+        <option>This is another option</option>
+        <option>Look, a third option</option>
+      </select>
+    </form>
+    </div>
+</div>
+
+<hr>
+
+<h2>Custom Selects</h2>
+
+<div class="row js-custom">
+    <div class="large-12 columns">
+  <div class="row">
+    <div class="large-13 columns">
+      <form>
+        <label for="normalDropdown">Dropdown Label</label>
+        <select id="normalDropdown">
+        <option SELECTED>This is a dropdown</option>
+        <option>This is another option</option>
+        <option>Look, a third option</option>
+        </select>
+      </form>
+    </div>
+  </div>
+    </div>
+    <div class="large-12 columns">
+    <form>
+      <label for="normalDropdown2">Dropdown Label</label>
+      <select id="normalDropdown2">
+        <option SELECTED>This is a wide dropdown</option>
+        <option>This is another option</option>
+        <option>Look, a third option</option>
+      </select>
+    </form>
+    </div>
+</div>
+
+<hr>
+
+<h2>Postfix/Prefix Labels & Actions</h2>
+<div class="row">
+    <div class="large-8 columns">
+        <!-- Prefix label -->
+        <label>Input with a prefix character</label>
+        <div class="row">
+          <div class="large-14 columns">
+            <div class="row collapse">
+              <div class="small-4 columns">
+                <span class="prefix">#</span>
+              </div>
+              <div class="small-20 columns">
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="large-8 columns">
+        <!-- Postfix label -->
+        <label>Input with a postfix label</label>
+        <div class="row">
+          <div class="large-16 columns">
+            <div class="row collapse">
+              <div class="small-18 columns">
+                <input type="text" />
+              </div>
+              <div class="small-6 columns">
+                <span class="postfix">.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="large-8 columns">
+        <!-- Postfix action -->
+        <label>Input with a postfix action (button)</label>
+        <div class="row collapse">
+          <div class="small-18 columns">
+            <input type="text" />
+          </div>
+          <div class="small-6 columns">
+            <a class="button expand postfix">Search</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<h2>Error States</h2>
+
+<p>Like the Foundation error states but active on classname 'js-validateError' because the validation markup is different when generated by the JS.</p>
+
+<div class="row">
+    <div class="large-12 columns">
+        <div class="row">
+            <div class="small-4 columns">
+                <label class="right inline">Label</label>
+            </div>
+            <div class="small-20 columns">
+                <input type="text" placeholder="Standard Input" size="25" id="email" name="field1" class="js-validateError"><span for="email" generated="true" class="js-validateError">Error message</span>
+            </div>
+        </div>
+    </div>
+    <div class="large-12 columns">
+        <div class="row">
+            <div class="large-8 columns">
+                <label class="right inline">Text Area Label</label>
+            </div>
+            <div class="large-16 columns error">
+                <textarea placeholder="Message" class="js-validateError" id="message"></textarea>
+                <span for="message" generated="true" class="js-validateError">Error message</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+{% endblock %}
